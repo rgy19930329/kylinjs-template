@@ -1,7 +1,7 @@
 {
-  "name": "kylinjs-demo",
+  "name": "{{projectName}}",
   "version": "1.0.0",
-  "description": "kylinjs-demo",
+  "description": "{{projectDescription}}",
   "main": "www",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,13 +13,13 @@
   },
   "keywords": [
     "kylinjs",
-    "kylinjs-demo"
+    "kylinjs-template",
+    "{{projectName}}"
   ],
   "author": "rgy",
   "license": "ISC",
   "dependencies": {
     "kylinjs": "git+https://github.com/rgy19930329/kylinjs.git",
     "kys": "git+https://github.com/rgy19930329/kys.git",
-    "rake-parser-bdtmpl": "^1.1.0"
   }
 }
