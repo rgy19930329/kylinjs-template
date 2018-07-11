@@ -1,0 +1,19 @@
+<div class="index-root">
+  <h1>page - {{title}} 234</h1>
+
+  <i class="icon"></i>
+
+  <img src="{% uri 'widget/index/img/checkbox-active.png' %}">
+
+  <img src="./img/checkbox-active.png">
+
+  <div>lalala</div>
+
+  <div>
+    {% for item in list %}
+      <div class="item-{{ loop.index }}">
+        {{ loop.index }} - {{ item.address | shorten(10) }}
+      </div>
+    {% endfor %}
+  </div>
+</div>

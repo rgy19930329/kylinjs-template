@@ -1,0 +1,25 @@
+{% extends 'views/layout.html' %}
+
+{% set bodyClass='page-index' %}
+
+{% block title %}
+  todolist - mongodb
+{% endblock %}
+
+{% block content %}
+<div class="root">
+
+  {% widget 
+    name="widget/common/header/header.html" 
+    title="todolist" 
+  %}
+
+  <hr>
+
+  {% widget 
+    name="widget/index/index.html"
+    title="index"
+  %}
+  
+</div>
+{% endblock %}
